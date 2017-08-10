@@ -58,6 +58,11 @@ curl -s echo-frontend.example.com/frontend -d "ECHO"
 export FRONTEND_URL=http://echo-frontend.example.com
 ```
 
+- Make the script executable:
+```
+chmod +x client.sh
+```
+
 - Kick off the script:
 ```
 nohup ./client.sh &
