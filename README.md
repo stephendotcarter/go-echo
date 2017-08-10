@@ -9,7 +9,20 @@ Sends a HTTP POST request from ```client``` through to the ```backend app``` and
 
 If the `client` does not receive the same data it POSTed then there is a potential issue.
 
+*Note: The frontend and backend apps both use the same code.*
+
 ## Setup
+
+- Clone the repo:
+```
+git clone https://github.com/stephendotcarter/go-echo.git
+```
+
+- Change to the directory:
+```
+cd go-echo
+```
+
 - Push the backend app:
 ```
 cf push echo-backend -i 10 -m 64M -b go_buildpack
