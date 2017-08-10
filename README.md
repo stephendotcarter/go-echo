@@ -43,7 +43,7 @@ curl -s echo-frontend.example.com/frontend -d "ECHO"
 2017-08-10T09:19:30 "echo-frontend.example.com/frontend" | 200 | 2017-08-10T09:19:30 "echo-backend.example.com/backend" ECHO
 ```
 
-- Set the frontend URL (needed for client.sh):
+- Set the frontend URL (needed for ```client.sh```):
 ```
 export FRONTEND_URL=http://echo-frontend.example.com
 ```
