@@ -47,13 +47,10 @@ cf start echo-frontend
 ```
 curl -s echo-frontend.example.com/frontend -d "ECHO"
 
+2017-08-10T09:19:30 "echo-frontend.example.com/frontend" | 200 | 2017-08-10T09:19:30 "echo-backend.example.com/backend" ECHO
+
 // You can replace "ECHO" with whatever string you want.
 // The app will return whatever is sent to it.
-```
-
-- Response should look like:
-```
-2017-08-10T09:19:30 "echo-frontend.example.com/frontend" | 200 | 2017-08-10T09:19:30 "echo-backend.example.com/backend" ECHO
 ```
 
 - Set the frontend URL (needed for ```client.sh```):
